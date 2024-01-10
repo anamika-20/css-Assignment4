@@ -1,0 +1,48 @@
+/* Resetting default margin and padding for all elements */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Styles for borders 1 and 2*/
+.box1,
+.box2 {
+  border: 2px solid black; /* Border style and width */
+  margin-bottom: 1rem; /* Margin bottom */
+}
+
+/* Styles for text of the image*/
+.img_text {
+  padding: 2px 0; /* Shorthand for top and bottom padding */
+}
+
+/* Containers for images 1 and 2 */
+.container1,
+.container2 {
+  padding-bottom: 0; /* Removing bottom padding */
+  margin-bottom: -0.25rem; /* Adjusting negative margin for spacing */
+}
+
+/* Image 1 styles */
+.image1 {
+  width: 100%;
+  height: 42vh; /* Viewport height */
+  object-fit: cover; /* Maintain aspect ratio while covering the viewport */
+  object-position: top; /* Positioning within the container */
+}
+
+/* Image 2 styles */
+.image2 {
+  width: 100%;
+  height: 47vh; /* Viewport height */
+  object-fit: cover; /* Maintaining aspect ratio while covering the viewport */
+  object-position: bottom; /* Positioning within the container */
+}
+
+/* Centering container3 horizontally and vertically */
+.container3 {
+  width: 100%;
+  display: flex;
+  justify-content: center; /* Horizontally center content */
+  align-items: center; /* Vertically center content */
+}
